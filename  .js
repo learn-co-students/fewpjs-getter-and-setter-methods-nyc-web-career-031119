@@ -15,20 +15,19 @@ class Circle {
   }
 
   get circumference() {
-    return this.radius * (2 * pi)
-    // C = 2π x 5
-  };
+     return ( this.radius * 2 ) * pi
+   }
 
-  set circumference(circumference) {
-    return circumference / 2(pi)
-  }
+   set circumference(circumference) {
+     this.radius = circumference / ( pi * 2 )
+   }
 
   get area() {
     return pi * ( this.radius * this.radius )
   }
 
   set area(area) {
-    this.radius = area / pi 
+    this.radius = area / pi
   }
 
 
